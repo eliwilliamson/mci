@@ -1,0 +1,25 @@
+section.section-signup.bg-faded
+  .container
+    h3.text-xs-center.m-b-3 Sign up to receive free updates as soon as they hit!
+    form
+      .row
+        .col-md-6.col-xl-3
+          .form-group.has-icon-left.form-control-name
+            label.sr-only(for='inputName') Your name
+            input#inputName.form-control.form-control-lg(type='text', placeholder='Your name')
+        .col-md-6.col-xl-3
+          .form-group.has-icon-left.form-control-email
+            label.sr-only(for='inputEmail') Email address
+            input#inputEmail.form-control.form-control-lg(type='email', placeholder='Email address', autocomplete='off')
+        .col-md-6.col-xl-3
+          .form-group.has-icon-left.form-control-password
+            label.sr-only(for='inputPassword') Enter a password
+            input#inputPassword.form-control.form-control-lg(type='password', placeholder='Enter a password', autocomplete='off')
+        .col-md-6.col-xl-3
+          .form-group
+            button.btn.btn-primary.btn-block(type='submit') Sign up for free!
+      label.c-input.c-checkbox
+        input(type='checkbox', checked='')
+        span.c-indicator
+        |  I agree to Land.io’s
+        a(href='#') terms of service

@@ -1,7 +1,7 @@
 - var company = "Multifamily Cable And Internet"
 - var description = "We offer a diverse range of exclusive products and solutions at affordable prices. We pride ourself on providing high quality products and offer a quality guarantee on all items."
 - var keywords = "Multifamily Cable Internet Bulk"
-- var primary-color = "663fb5"
+- var primaryColor = "663fb5"
 
 doctype html
 html
@@ -32,11 +32,16 @@ html
     meta(name='msapplication-TileColor', content='#663fb5')
     meta(name='msapplication-TileImage', content='/img/favicon/mstile-144x144.png')
     meta(name='msapplication-config', content='/img/favicon/browserconfig.xml')
-    meta(name='theme-color', content= primary-color)
+    meta(name='theme-color', content= primaryColor)
 
     != css()
 
   body
+
+    include /partials/navigation
+
     block content
+
+    include /partials/footer
 
     != js()

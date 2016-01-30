@@ -1,0 +1,45 @@
+section.section-testimonials.text-xs-center.bg-inverse
+  .container
+    h3.sr-only Testimonials
+    #carousel-testimonials.carousel.slide(data-ride='carousel', data-interval='0')
+      .carousel-inner(role='listbox')
+        .carousel-item.active
+          blockquote.blockquote
+            /img./img-circle(src='/img/face1.jpg', height='80', width='80', alt='Avatar')
+            p.h3
+              | Good design at the front-end suggests that everything is in order at the back-end, whether or not that is the case.
+            footer Dmitry Fadeyev
+        .carousel-item
+          blockquote.blockquote
+            /img./img-circle(src='/img/face2.jpg', height='80', width='80', alt='Avatar')
+            p.h3
+              | It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the eye, no program will give it to you.
+            footer David Carson
+        .carousel-item
+          blockquote.blockquote
+            /img./img-circle(src='/img/face3.jpg', height='80', width='80', alt='Avatar')
+            p.h3
+              | There’s a point when you’re done simplifying. Otherwise, things get really complicated.
+            footer Frank Chimero
+        .carousel-item
+          blockquote.blockquote
+            /img./img-circle(src='/img/face4.jpg', height='80', width='80', alt='Avatar')
+            p.h3
+              | Designing for clients that don’t appreciate the value of design is like buying new tires for a rental car.
+            footer Joel Fisher
+        .carousel-item
+          blockquote.blockquote
+            /img./img-circle(src='/img/face5.jpg', height='80', width='80', alt='Avatar')
+            p.h3 Every picture owes more to other pictures painted before than it owes to nature.
+            footer E.H. Gombrich
+      ol.carousel-indicators
+        li.active
+          /img./img-fluid./img-circle(src='/img/face1.jpg', alt='Navigation avatar', data-target='#carousel-testimonials', data-slide-to='0')
+        li
+          /img./img-fluid./img-circle(src='/img/face2.jpg', alt='Navigation avatar', data-target='#carousel-testimonials', data-slide-to='1')
+        li
+          /img./img-fluid./img-circle(src='/img/face3.jpg', alt='Navigation avatar', data-target='#carousel-testimonials', data-slide-to='2')
+        li
+          /img./img-fluid./img-circle(src='/img/face4.jpg', alt='Navigation avatar', data-target='#carousel-testimonials', data-slide-to='3')
+        li
+          /img./img-fluid./img-circle(src='/img/face5.jpg', alt='Navigation avatar', data-target='#carousel-testimonials', data-slide-to='4')
